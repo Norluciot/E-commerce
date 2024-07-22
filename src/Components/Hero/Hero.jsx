@@ -10,14 +10,14 @@ const Hero = () => {
       <div className="hero-left">
         <h2>NEW ARRIVALS ONLY</h2>
         <div>
-          <div className="hand-hand-hand">
+          <div className="hero-hand-icon">
             <p>new</p>
             <img src={hand_icon} alt="" />
           </div>
           <p>collections</p>
           <p>for everyone</p>
         </div>
-        <div className="hero-left-btn">
+        <div className="hero-latest-btn">
           <div className="">Latest Collections</div>
           <img src={arrow_icon} alt="" />
         </div>

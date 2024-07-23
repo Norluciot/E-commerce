@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useContext } from "react";
+import "./CSS/ShopCategory.css";
 
 const ShopCategory = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  const { all_product } = useContext(ShopContext);
 
-export default ShopCategory
+  return <div className="shop-category"></div>;
+};
+
+export default ShopCategory;
